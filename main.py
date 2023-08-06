@@ -12,7 +12,7 @@ notion_database_id = os.getenv('NOTION_DATABASE_ID')
 notion = NotionClient(auth=notion_token)
 
 # 获取biorxiv文章
-response = requests.get("https://api.biorxiv.org/details/biorxiv/latest/10")
+response = requests.get("https://api.biorxiv.org/details/biorxiv/latest/50")
 papers = response.json()
 
 # 遍历导入Notion    

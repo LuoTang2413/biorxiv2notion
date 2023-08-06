@@ -4,7 +4,6 @@ import schedule
 import time
 
 # 初始化
-biorxiv_api_key = '你的biorxiv API key'  
 notion_token = '你的notionIntegration token'
 notion_database_id = 'Notion数据库页面id'
 
